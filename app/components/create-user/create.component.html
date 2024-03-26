@@ -1,0 +1,46 @@
+<div ng-controller="createController">
+  <form>
+    <h1>Criar novo usuario</h1>
+
+    <div class="create-user">
+      <label class="label">Nome</label>
+      <input
+        type="text"
+        ng-model="frmInclude.name"
+        class="input"
+        required
+        placeholder="digite seu nome"
+      />
+
+      <label class="label">sobrenome</label>
+      <input
+        type="text"
+        ng-model="frmInclude.last_name"
+        class="input"
+        placeholder="digite seu sobrenome"
+        required
+      />
+
+      <label class="label">email</label>
+      <input
+        type="text"
+        ng-model="frmInclude.email"
+        class="input"
+        required
+        placeholder="digite seu email"
+      />
+
+      <label class="label">Telefone</label>
+      <input
+        type="text"
+        ng-model="frmInclude.phone"
+        class="input"
+        required
+        placeholder="digite seu telefone"
+      />
+      <button class="save-button" ng-click="createNewUser()">
+        Criar usuario
+      </button>
+    </div>
+  </form>
+</div>

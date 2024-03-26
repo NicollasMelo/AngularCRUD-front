@@ -1,0 +1,45 @@
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-row {
+  background-color: #f2f2f2;
+}
+
+.user {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+  font-size: 17pt;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.user-table th {
+  background-color: #333;
+  height: 3rem;
+  color: white;
+}
+
+.list-button {
+  background-color: #8e8e8e;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.list-button:hover {
+  background-color: #333;
+  transition: 0.3s ease-in;
+}
+
+.container {
+  text-align: center;
+}

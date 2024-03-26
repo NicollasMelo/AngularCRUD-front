@@ -1,0 +1,54 @@
+<div ng-controller="updateController">
+  <form>
+    <h1>Atualizar cadastro</h1>
+    <p>Forneça um ID valido!</p>
+    <div class="create-user">
+      <label class="label">ID de usuario</label>
+      <input
+        type="text"
+        ng-model="frmUpdate.id"
+        class="input"
+        required
+        placeholder="Insira o id do usuario"
+      />
+      <label class="label">Nome</label>
+      <input
+        type="text"
+        ng-model="frmUpdate.name"
+        class="input"
+        required
+        placeholder="altere seu nome"
+      />
+
+      <label class="label">sobrenome</label>
+      <input
+        type="text"
+        ng-model="frmUpdate.last_name"
+        class="input"
+        placeholder="altere seu sobrenome"
+        required
+      />
+
+      <label class="label">email</label>
+      <input
+        type="text"
+        ng-model="frmUpdate.email"
+        class="input"
+        required
+        placeholder="altere seu email"
+      />
+
+      <label class="label">Telefone</label>
+      <input
+        type="text"
+        ng-model="frmUpdate.phone"
+        class="input"
+        required
+        placeholder="altere seu telefone"
+      />
+      <button class="update-button" ng-click="updateUser()">
+        Atualizar cadastro
+      </button>
+    </div>
+  </form>
+</div>

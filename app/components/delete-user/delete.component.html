@@ -1,0 +1,15 @@
+<div ng-controller="deleteUserController">
+  <h1>Excluir usuario</h1>
+  <p>Essa ação não tem volta!</p>
+  <div class="create-user">
+    <label class="label">ID de usuario</label>
+    <input
+      type="text"
+      ng-model="frmDelete.id"
+      class="input"
+      placeholder="Insira o id do usuario"
+      required
+    />
+    <button class="delete-button" ng-click="deleteUser()">Excluir</button>
+  </div>
+</div>
